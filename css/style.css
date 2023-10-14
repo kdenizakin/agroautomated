@@ -2,7 +2,7 @@
 :root {
     --primary: #1363C6;
     --secondary: #15ACE1;
-    --light: #ffffff;
+    --light: #F4F7FE;
     --dark: #14183E;
 }
 
@@ -93,7 +93,7 @@ h6,
 .navbar .navbar-nav .nav-link {
     margin-right: 35px;
     padding: 0;
-    color: rgb(255, 255, 255);
+    color: rgba(255, 255, 255, .7);
     outline: none;
 }
 
@@ -290,13 +290,6 @@ h6,
 .newsletter {
     background: url(../img/bg-hero.png) center center no-repeat;
     background-size: cover;
-}
-
-/*** Tedu Logo ***/
-.tedu_logo {
-    background: url(../img/tedulogo.png) center center no-repeat;
-    background-size:cover;
-
 }
 
 @media (min-width: 992px) {
