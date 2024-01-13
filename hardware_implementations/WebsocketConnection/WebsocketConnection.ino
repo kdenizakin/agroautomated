@@ -4,10 +4,6 @@
 #include <SoftwareSerial.h>
 #include <ESP8266WiFi.h> //Wifi modulünün headırı
 
-#include <FirebaseArduino.h>
-// Set these to run example.
-#define FIREBASE_HOST "agroautomated-8f55e-default-rtdb.firebaseio.com"
-#define FIREBASE_AUTH "H5EagCXkQeQLME8NcmKP7h6GUHq4gaTEHzeSCusi"
 #define WIFI_SSID "LOTDC"
 #define WIFI_PASSWORD "haldirofloriens"
 

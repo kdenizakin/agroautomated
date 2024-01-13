@@ -82,6 +82,7 @@ void loop()
     firebase.setInt("sensor_data/soil_moisture_integer", atoi(line_divided[3]));
     Serial.println("Writing data has been finished! ");
     Serial.println("Now reading the data...");
+    NodeMCU.print(1);
     firebase.json(true);    
     String data = firebase.getString("sensor_data");  // Get data from the database.
     const size_t capacity = JSON_OBJECT_SIZE(3) + 50;
@@ -103,7 +104,7 @@ void loop()
     Serial.println(received_humidity);
     Serial.print("Received Soil Moisture:\t");
     Serial.println(received_soil_moisture);
-    NodeMCU.print(1);
+    
   }
 
 
