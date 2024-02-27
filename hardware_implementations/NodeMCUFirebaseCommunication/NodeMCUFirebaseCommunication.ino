@@ -103,7 +103,7 @@ void loop()
     Serial.print("Received Humidity:\t");
     Serial.println(received_humidity);
     Serial.print("Received Soil Moisture:\t");
-    Serial.println(received_soil_moisture);
+    Serial.println(received_soil_moisture); 
     
   }
 
